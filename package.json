@@ -1,13 +1,13 @@
 {
-  "name": "static-site",
+  "name": "readme-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "A node.js app that dynamically generates a readme file via the answers given from a series of prompts",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "cedekpoole",
+  "license": "MIT",
   "dependencies": {
     "colors": "^1.4.0",
     "figlet": "^1.5.2",
