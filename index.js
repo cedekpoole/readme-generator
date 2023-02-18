@@ -8,9 +8,6 @@ const generateMarkdown = require("./utils/generateMarkdown");
 const badge = require("./utils/generateBadge");
 const questions = require("./utils/questions").questions;
 
-// function to write README file
-function writeToFile(fileName, data) {}
-
 // function to initialize program
 function init() {
   // Add a welcome screen for the user using figlet package
@@ -24,9 +21,14 @@ function init() {
   setTimeout(async () => {
     const answers = await inquirer.prompt(questions);
     answers.badgeLicense = badge(answers.license);
-    console.log(answers);
+    // write README file
+    const readmeInfo = generateMarkdown(answers);
+    fs.writeFile("generated-README.md", readmeInfo, (err) => {
+      err ? console.error(err) : console.log("Readme created!");
+    });
   }, 2000);
 }
 
 // function call to initialize program
 init();
+
