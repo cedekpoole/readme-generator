@@ -1,9 +1,10 @@
+// import packages 
 const fs = require("fs");
-const path = require("path");
 const inquirer = require("inquirer");
 const colours = require("colors");
 const figlet = require("figlet");
 
+// import own files 
 const generateMarkdown = require("./utils/generateMarkdown");
 const badge = require("./utils/generateBadge");
 const questions = require("./utils/questions").questions;
@@ -20,6 +21,7 @@ function init() {
   // Once welcomed, run an async function after 2 seconds which gathers user data
   setTimeout(async () => {
     const answers = await inquirer.prompt(questions);
+    // use badge function to generate corresponding license badge
     answers.badgeLicense = badge(answers.license);
     // write README file
     const readmeInfo = generateMarkdown(answers);
