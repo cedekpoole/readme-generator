@@ -13,7 +13,7 @@ ${data.description}
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
-* [Contributing](#contributing-here-is-a-header)
+* [Contributing](#contributing)
 * [Tests](#tests)
 * [Questions](#questions)
 
@@ -41,7 +41,7 @@ ${data.test}
 
 If you have any questions about the repo, open an issue or contact me directly at ${data.email}. 
 You can find more of my work at [${data.github}](https://github.com/${data.github}/).
-Feel free to also add me on LinkedIn: ${data.linkedIn} :)
+Feel free to also add me on [LinkedIn](${data.linkedIn}). :)
 
 
 `;
