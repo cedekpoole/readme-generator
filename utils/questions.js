@@ -33,7 +33,31 @@ const questions = [
     message: "Enter usage information:".green,
     name: "usage",
   },
-  
+  {
+    type: "input",
+    message: "Include contributing info here:".green,
+    name: "contribute",
+  },
+  {
+    type: "input",
+    message: "What tests can the user run?".green,
+    name: "test",
+  },
+  {
+    type: "input",
+    message: "What is your email address?".green,
+    name: "email",
+  },
+  {
+    type: "input",
+    message: "What is your GitHub username?".green,
+    name: "github",
+  },
+  {
+    type: "input",
+    message: "Enter your LinkedIn URL".green,
+    name: "linkedIn",
+  },
 ];
 
 module.exports = {
