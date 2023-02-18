@@ -4,14 +4,15 @@
 
 ## Description 
 
-This is a programme that dynamically creates a README.md file based on the responses given by the user. Via the command line, the user is given prompts to answer; answers that are used within the generated markdown. 
+This is a programme that dynamically generates a README.md file based on the responses given by the user. Via the command line, the user is given prompts to answer in relation to what they want in their readme file; answers that are used within the generated markdown. Three npm packages were used for this application: Inquirer, Colors and Figlet. While the latter two were used purely for command line aesthetics, inquirer was implemented in order to gather the necessary responses from the user. The integrated Node.js file system module allowed me to work with the file system and create a new file via javascript. 
 
-NOTE: this is not a dynamically generated README.md file. To view an example of the program output, please view the generated-README.md file that is stored in the repo. 
+NOTE: this is not a dynamically generated README.md file. To view an example of the program output, please view the [generated-README.md](https://github.com/cedekpoole/readme-generator/blob/main/generated-README.md) file that is stored in the repo. 
 
 ### Technologies Used:
 - Javascript
-- Node.js
-- Inquirer, colors and figlet npm packages
+- [Node.js](https://nodejs.org/en/docs/)
+- [Inquirer](https://www.npmjs.com/package/inquirer), [colors](https://www.npmjs.com/package/colors) and [figlet](https://www.npmjs.com/package/figlet) npm packages
+- Node.js [file system](https://nodejs.org/docs/latest-v16.x/api/fs.html)(fs)
 - The command line (CLI)
 
 ### What I learnt: 
