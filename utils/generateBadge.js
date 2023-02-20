@@ -16,7 +16,7 @@ function badge(license) {
         return `[![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0)`;
   
       case "None of the above":
-        return;
+        return "This repo has no license";
     }
   }
 
