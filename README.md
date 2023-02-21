@@ -36,7 +36,7 @@ As the file path is relative, please make sure you are in the right directory wh
 
 ![Command Line Screenshot](./assets/images/command-line.png)
 
-Once the prompts have been answered, a readme.md file will be dynamically generated with all the information gathered via the npm package 'inquirer'. For a proper demonstration, please watch this [video](blahblah) to gain a better understanding of how to use this application. 
+Once the prompts have been answered, a readme.md file will be dynamically generated with all the information gathered via the npm package 'inquirer'. For a proper demonstration, please watch this [video](https://www.youtube.com/watch?v=AzjbbK4kNIY&ab_channel=Camikazoo) to gain a better understanding of how to use this application. 
 
 ## License 
 
